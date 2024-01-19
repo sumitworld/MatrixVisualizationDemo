@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		3CF22D4B2B5A53F300B24235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF22D4A2B5A53F300B24235 /* AppDelegate.swift */; };
 		3CF22D4D2B5A53F300B24235 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF22D4C2B5A53F300B24235 /* SceneDelegate.swift */; };
-		3CF22D4F2B5A53F300B24235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF22D4E2B5A53F300B24235 /* ViewController.swift */; };
 		3CF22D522B5A53F300B24235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF22D502B5A53F300B24235 /* Main.storyboard */; };
 		3CF22D542B5A53F800B24235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF22D532B5A53F800B24235 /* Assets.xcassets */; };
 		3CF22D572B5A53F800B24235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF22D552B5A53F800B24235 /* LaunchScreen.storyboard */; };
 		3CF22D622B5A53F900B24235 /* MatrixVisualizationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF22D612B5A53F900B24235 /* MatrixVisualizationDemoTests.swift */; };
 		3CF22D6C2B5A53F900B24235 /* MatrixVisualizationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF22D6B2B5A53F900B24235 /* MatrixVisualizationDemoUITests.swift */; };
 		3CF22D6E2B5A53F900B24235 /* MatrixVisualizationDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF22D6D2B5A53F900B24235 /* MatrixVisualizationDemoUITestsLaunchTests.swift */; };
+		3CF22D7C2B5A572B00B24235 /* JsonData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3CF22D7B2B5A572B00B24235 /* JsonData.json */; };
+		3CF22D7F2B5A57C100B24235 /* MatrixModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF22D7E2B5A57C100B24235 /* MatrixModel.swift */; };
+		3CF22D822B5ACFD500B24235 /* MatrixVisualizationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF22D812B5ACFD500B24235 /* MatrixVisualizationVC.swift */; };
+		3CF22D842B5AD04700B24235 /* MatrixBoxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF22D832B5AD04700B24235 /* MatrixBoxCell.swift */; };
+		3CF22D862B5AD21600B24235 /* CustomFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF22D852B5AD21600B24235 /* CustomFlowLayout.swift */; };
+		3CF22D8A2B5ADAFD00B24235 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF22D892B5ADAFD00B24235 /* AppConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		3CF22D472B5A53F300B24235 /* MatrixVisualizationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatrixVisualizationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF22D4A2B5A53F300B24235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CF22D4C2B5A53F300B24235 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3CF22D4E2B5A53F300B24235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CF22D512B5A53F300B24235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CF22D532B5A53F800B24235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CF22D562B5A53F800B24235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		3CF22D672B5A53F900B24235 /* MatrixVisualizationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatrixVisualizationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF22D6B2B5A53F900B24235 /* MatrixVisualizationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixVisualizationDemoUITests.swift; sourceTree = "<group>"; };
 		3CF22D6D2B5A53F900B24235 /* MatrixVisualizationDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixVisualizationDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CF22D7B2B5A572B00B24235 /* JsonData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JsonData.json; sourceTree = "<group>"; };
+		3CF22D7E2B5A57C100B24235 /* MatrixModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixModel.swift; sourceTree = "<group>"; };
+		3CF22D812B5ACFD500B24235 /* MatrixVisualizationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixVisualizationVC.swift; sourceTree = "<group>"; };
+		3CF22D832B5AD04700B24235 /* MatrixBoxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixBoxCell.swift; sourceTree = "<group>"; };
+		3CF22D852B5AD21600B24235 /* CustomFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFlowLayout.swift; sourceTree = "<group>"; };
+		3CF22D892B5ADAFD00B24235 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,13 @@
 		3CF22D492B5A53F300B24235 /* MatrixVisualizationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3CF22D882B5ADA9400B24235 /* AppConstants */,
+				3CF22D7A2B5A572B00B24235 /* SupportingFiles */,
+				3CF22D872B5AD23100B24235 /* CustomFlowLayout */,
+				3CF22D802B5A588400B24235 /* View */,
+				3CF22D7D2B5A578000B24235 /* Model */,
 				3CF22D4A2B5A53F300B24235 /* AppDelegate.swift */,
 				3CF22D4C2B5A53F300B24235 /* SceneDelegate.swift */,
-				3CF22D4E2B5A53F300B24235 /* ViewController.swift */,
 				3CF22D502B5A53F300B24235 /* Main.storyboard */,
 				3CF22D532B5A53F800B24235 /* Assets.xcassets */,
 				3CF22D552B5A53F800B24235 /* LaunchScreen.storyboard */,
@@ -125,6 +139,47 @@
 				3CF22D6D2B5A53F900B24235 /* MatrixVisualizationDemoUITestsLaunchTests.swift */,
 			);
 			path = MatrixVisualizationDemoUITests;
+			sourceTree = "<group>";
+		};
+		3CF22D7A2B5A572B00B24235 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3CF22D7B2B5A572B00B24235 /* JsonData.json */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		3CF22D7D2B5A578000B24235 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CF22D7E2B5A57C100B24235 /* MatrixModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CF22D802B5A588400B24235 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CF22D812B5ACFD500B24235 /* MatrixVisualizationVC.swift */,
+				3CF22D832B5AD04700B24235 /* MatrixBoxCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3CF22D872B5AD23100B24235 /* CustomFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				3CF22D852B5AD21600B24235 /* CustomFlowLayout.swift */,
+			);
+			path = CustomFlowLayout;
+			sourceTree = "<group>";
+		};
+		3CF22D882B5ADA9400B24235 /* AppConstants */ = {
+			isa = PBXGroup;
+			children = (
+				3CF22D892B5ADAFD00B24235 /* AppConstants.swift */,
+			);
+			path = AppConstants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF22D572B5A53F800B24235 /* LaunchScreen.storyboard in Resources */,
+				3CF22D7C2B5A572B00B24235 /* JsonData.json in Resources */,
 				3CF22D542B5A53F800B24235 /* Assets.xcassets in Resources */,
 				3CF22D522B5A53F300B24235 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CF22D4F2B5A53F300B24235 /* ViewController.swift in Sources */,
+				3CF22D842B5AD04700B24235 /* MatrixBoxCell.swift in Sources */,
+				3CF22D822B5ACFD500B24235 /* MatrixVisualizationVC.swift in Sources */,
 				3CF22D4B2B5A53F300B24235 /* AppDelegate.swift in Sources */,
+				3CF22D7F2B5A57C100B24235 /* MatrixModel.swift in Sources */,
+				3CF22D8A2B5ADAFD00B24235 /* AppConstants.swift in Sources */,
 				3CF22D4D2B5A53F300B24235 /* SceneDelegate.swift in Sources */,
+				3CF22D862B5AD21600B24235 /* CustomFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

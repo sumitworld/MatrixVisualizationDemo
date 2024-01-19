@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct AppConstants {
+    
+
+    
+}
+
